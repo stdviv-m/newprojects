@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Admin Dashboard </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="logo">
+            <h2> Dashboard</h2>
+        </div>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="search here">
+        </div>
+        <div class="users">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+    <section class="container">
+        <div class="sidebar">
+            <a href=""><li><span><i class="fa-solid fa-gauge"></i></span><a href="">Dashboard</a></li></a>
+            <a href=""><li><span><i class="fa-solid fa-graduation-cap"></i></span><a href="">Dashboard</a></li></a>
+            <a href=""><li><span><i class="fa-solid fa-chalkboard-user"></i></span><a href="">Teachers</a></li></a>
+            <a href=""><li><span><i class="fa-solid fa-people-group"></i></span><a href="">Employees</a></li></a>
+            <a href=""><li><span><i class="fa-solid fa-chart-line"></i></span><a href="">Analytics</a></li></a>
+            <a href=""><li><span><i class="fa-sharp fa-solid fa-money-check-dollar"></i></span><a href="">Earnings</a></li></a>
+            <a href=""><li><span><i class="fa-solid fa-gear"></i></span><a href="">Settings</a></li></a>
+            <a href=""><li><span><i class="fa-solid fa-question"></i></span><a href="">Help</a></li></a>
+        </div>
+        <div class="main">
+            <div class="main-top">
+                <div class="item">
+                    <div class="content">
+                        <h2 class="number">1224</h2>
+                        <p class="category">Students</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h2 class="number">42</h2>
+                        <p class="category">Teachers</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h2 class="number">67</h2>
+                        <p class="category">Employees</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <h2 class="number">$100</h2>
+                        <p class="category">Earnings</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="main-bottom">
+                <div class="headings">
+                    <h5> Recent Classes </h5>
+                    <button class="viewBtn">View All </button>
+                </div>
+                <div class="bottom-content">
+                    <table>
+                        <tr>
+                            <td>Teacher</td>
+                            <td>Period</td>
+                            <td>Time</td>
+                            <td>Status</td>
+                        </tr>
+                        <tr>
+                            <td>Manoj</td>
+                            <td>4</td>
+                            <td>4 hours</td>
+                            <td> <span class="done"> Done </span> </td>
+                        </tr>
+                        <tr>
+                            <td>Vijay</td>
+                            <td>2</td>
+                            <td>2 hours</td>
+                            <td> <span class="pending">Pending </span></td>
+                        </tr>
+                        <tr>
+                            <td>Naresh</td>
+                            <td>1</td>
+                            <td>1 hours</td>
+                            <td> <span class="pending">Pending </span></td>
+                        </tr>
+                        <tr>
+                            <td>Manphool</td>
+                            <td>3</td>
+                            <td>3 hours</td>
+                            <td> <span class="done">Done </span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Responsive Admin Dashboard Design -->
+</body>
